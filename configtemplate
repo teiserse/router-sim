@@ -1,0 +1,6 @@
+own id:dest id-own port-dest port,dest id-own port-dest port,!
+: <- start of data referring to connections
+- <- elements of same connection 
+		- currently the destination id, followed by port to create, then port to connect to
+, <- next connection or end of file
+! <- no more connections (End of file) (irrelevant for endpoints due to them having only one connection, but the ',' is required)

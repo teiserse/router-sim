@@ -1,0 +1,82 @@
+CN: Initialised Controller.
+CN: Received adjacency info from R1
+CN: Received adjacency info from R2
+CN: Received adjacency info from R3
+CN: Received adjacency info from R4
+CN: Received adjacency info from R5
+CN: Received adjacency info from R6
+CN: Received adjacency info from R7
+E1: Starting operations
+CN: Received adjacency info from R8
+E1: Sending: 11459, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 91 to R2
+R2: Routing packet 91 to R6
+R6: Routing packet 91 to R3
+R3: Routing packet 91 to R7
+R7: Sending packet 91 to local link E2
+E2: Received: 11459, Src: E1
+E1: Sending: 11657, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 97 to R2
+R2: Routing packet 97 to R6
+R6: Routing packet 97 to R3
+R3: Routing packet 97 to R7
+R7: Sending packet 97 to local link E2
+E2: Received: 11657, Src: E1
+E1: Sending: 12241, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 99 to R2
+R2: Routing packet 99 to R6
+R6: Routing packet 99 to R3
+R3: Routing packet 99 to R7
+R7: Sending packet 99 to local link E2
+E2: Received: 12241, Src: E1
+E1: Sending: 11101, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 22 to R2
+R2: Routing packet 22 to R6
+R6: Routing packet 22 to R3
+R3: Routing packet 22 to R7
+R7: Sending packet 22 to local link E2
+E2: Received: 11101, Src: E1
+E1: Sending: 11118, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 43 to R2
+R2: Routing packet 43 to R6
+R6: Routing packet 43 to R3
+R3: Routing packet 43 to R7
+R7: Sending packet 43 to local link E2
+E2: Received: 11118, Src: E1
+E1: Sending: 14557, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 40 to R2
+R2: Routing packet 40 to R6
+R6: Routing packet 40 to R3
+R3: Routing packet 40 to R7
+R7: Sending packet 40 to local link E2
+E2: Received: 14557, Src: E1
+E1: Sending: 14839, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 17 to R2
+R2: Routing packet 17 to R6
+R6: Routing packet 17 to R3
+R3: Routing packet 17 to R7
+R7: Sending packet 17 to local link E2
+E2: Received: 14839, Src: E1
+E1: Sending: 12322, Dst: E2
+R1: ID-less packet, consulting Controller
+CN: ID-less packet marked and routed, rebounding to router.
+R1: Routing packet 33 to R2
+R2: Routing packet 33 to R6
+R6: Routing packet 33 to R3
+R3: Routing packet 33 to R7
+R7: Sending packet 33 to local link E2
+E2: Received: 12322, Src: E1
